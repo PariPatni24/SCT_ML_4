@@ -28,17 +28,24 @@ Google Colab
 LeapGestRecog dataset (from Kaggle):
 https://www.kaggle.com/datasets/kmader/leapgestrecog
 
-🤖 Model Demo
+### 🤖 Model Demo
+
 To see predictions on test images:
+
+python
+from tensorflow.keras.models import load_model
 model = load_model('gesture_model.keras')
 
 # Preprocess image & predict as shown in notebook
-📁 Files
 
-**File**	                                        **Description**
 
-gesture_model.keras	                         Trained model
-gesture_predictions.png	                     Sample predictions
-hand_gesture_recognition.ipynb	             Training and testing notebook
-README.md                                  	 Project overview
+### 📁 Files
+
+| File Name                     | Description                           |
+|------------------------------|---------------------------------------|
+| gesture_model.keras       | Trained gesture recognition model     |
+| gesture_predictions.png    | Sample predictions image              |
+| hand_gesture_recognition.ipynb | Training & testing notebook        |
+| README.md                  | Project overview and instructions     |
+
 
